@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.laptop-keyboard {
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.keyboard-row {
+    display: flex;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #ccc;
+}
+
+.keyboard {
+    display: inline-block;
+    background-color: #eee;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #ccc;
+}
+
+.keyboard-row-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+}
+
+.key {
+    text-align: center;
+    padding: 5px;
+    border: 0px solid #000;
+}
+
+.key.space {
+    grid-column: span 6; /* Make Space key span 6 columns */
+    font-size: 18px; /* Adjust font size for Space key */
+}
